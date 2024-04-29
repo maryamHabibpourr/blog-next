@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-black">
+      <body>
         <Navbar />
-        <main className="px-4 md:px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
+        <main className="py-8 px-4 md:px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
           {children}
         </main>
       </body>
